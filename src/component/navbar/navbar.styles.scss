@@ -1,0 +1,48 @@
+nav {
+  background-color: rgba(43, 42, 42, 0.658);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: sticky;
+  // top: 0px;
+  // left: 0px;
+  // z-index: 5;
+
+  a {
+    text-decoration-line: none;
+    color: white;
+  }
+  .menu {
+    display: flex;
+    li {
+      a {
+        padding: 15px;
+        &:hover {
+          background-color: orange;
+        }
+      }
+      display: flex;
+      margin: 0 20px;
+    }
+    .dropDown {
+      position: relative;
+      .subMenu {
+        background-color: rgba(43, 42, 42, 0.658);
+        display: none;
+        position: absolute;
+        top: 30px;
+        left: -15px;
+        width: 100%;
+        padding: 15px;
+        li {
+          width: 100%;
+          margin: 20px 0;
+        }
+      }
+      &:hover ul.subMenu {
+        display: block;
+      }
+    }
+  }
+}
