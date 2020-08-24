@@ -13,30 +13,30 @@ const NavBar = () => {
           <a href="/">首頁</a>
         </li>
         <li>
-          <a href="/">關於我們</a>
+          <a href="/about">關於我們</a>
         </li>
         <li className="dropDown">
           <a href="/#">動物認養</a>
           <ul className="subMenu">
             <li>
-              <a href="/">認養須知</a>
+              <a href="/#">認養須知</a>
             </li>
             <li>
-              <a href="/">認養狗狗</a>
+              <a href="/#">認養狗狗</a>
             </li>
             <li>
-              <a href="/">認養貓咪</a>
+              <a href="/#">認養貓咪</a>
             </li>
           </ul>
         </li>
         <li>
-          <a href="/">動物新聞</a>
+          <a href="/news">動物新聞</a>
         </li>
         <li>
-          <a href="/">活動夥伴</a>
+          <a href="/partner">活動夥伴</a>
         </li>
         <li>
-          <a href="/">聯絡我們</a>
+          <a href="/contact">聯絡我們</a>
         </li>
       </ul>
     </nav>

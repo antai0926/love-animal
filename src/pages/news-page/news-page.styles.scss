@@ -1,0 +1,126 @@
+.news-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    'header header header header'
+    'banner banner banner banner'
+    'news news news sidebar'
+    'footer footer footer footer';
+}
+
+nav {
+  grid-area: header;
+}
+
+.about-wrapper {
+  grid-area: banner;
+}
+
+.blog-sidebar {
+  grid-area: sidebar;
+}
+
+.news-wrapper {
+  grid-area: news;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.widget {
+  margin-bottom: 40px;
+  padding: 40px;
+}
+.widget .widget-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 10px;
+}
+.widget .widget-title:after {
+  border-bottom: 2px solid #ee163b;
+  bottom: -1px;
+  content: '';
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 50px;
+}
+
+.widget ul.list li {
+  margin: 25px 0 5px;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 5px;
+  border-bottom: 1px dashed #d3d3d3;
+}
+.widget ul li.item {
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+.widget ul.list li a {
+  color: #ee163b;
+}
+.widget ul li.item p {
+  font-size: 1em;
+  color: #a9a9a9;
+  height: 60px;
+  overflow-y: hidden;
+  line-height: 1.8em;
+}
+
+.widget ul li.item .date {
+  line-height: 2em;
+  color: #a9a9a9;
+}
+
+.news-wrapper {
+  width: 70%;
+  margin: 3% auto;
+}
+.news-container {
+  display: grid;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.news-item {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+.news-title {
+  font-size: 1.2 rem;
+  font-weight: 600;
+  line-height: 4rem;
+}
+.news-detail {
+  line-height: 1.8 rem;
+  color: #4d4a4a;
+}
+.news-footer {
+  background-color: #88868658;
+  margin-top: 5px;
+  padding: 5px 10px;
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.news-date {
+  font-size: 0.8 rem;
+  color: black;
+  float: left;
+  padding: 15px;
+}
+.more {
+  float: right;
+  background-color: #bd4e4e;
+  color: white;
+  padding: 10px;
+}

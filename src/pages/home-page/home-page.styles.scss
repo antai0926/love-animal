@@ -1,0 +1,66 @@
+.AD1 {
+  background-image: url(../../assets/home-page/AD-1.jpg);
+  background-size: cover;
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center center;
+  position: relative;
+}
+
+.AD1:hover .AD1-inside {
+  height: 100%;
+  transition: height 0.5s ease-in;
+}
+
+.AD1-inside {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background-color: #ffffff4b;
+  width: 100%;
+  color: white;
+  text-align: center;
+  line-height: 2rem;
+  height: 40px;
+  overflow: hidden;
+  transition: height 0.5s ease-out;
+}
+
+.AD1-inside:hover {
+  height: 100%;
+  transition: height 0.5s ease-in;
+}
+
+.text-big {
+  font-size: 30px;
+}
+
+/*----AD1 END----*/
+
+/*---Animal Picture Start---*/
+
+.animal-pic {
+  width: 1128px;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+}
+
+.animal-pic .col {
+  /* float: left; */
+  padding: 15px;
+}
+
+.animal-img {
+  border: 1px solid #6e6c6c;
+  padding: 10px;
+  transition: all 0.3s;
+}
+
+.animal-img:hover {
+  transform: translateY(-10px);
+  box-shadow: 2px 5px 10px 5px rgb(185, 185, 185);
+}
+
+/*---Animal Picture End---*/
+
