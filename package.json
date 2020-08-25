@@ -2,7 +2,7 @@
   "name": "animal-love",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://antai0926.github.io/love-animal",
+  "homepage": "https://antai0926.github.io/love-animal-react",
   "dependencies": {
     "node-sass": "^4.14.1",
     "react": "^16.13.1",

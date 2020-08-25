@@ -5,7 +5,7 @@ import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
-  <BrowserRouter basename="/love-animal">
+  <BrowserRouter basename="/love-animal-react">
     <React.StrictMode>
       <App />
     </React.StrictMode>
