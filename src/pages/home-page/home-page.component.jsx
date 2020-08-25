@@ -38,7 +38,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div id="notice-id" class="notice">
+      <div id={'notice-id'} class="notice">
         <p>
           <span class="notice-title">
             認養流程及須知
@@ -70,7 +70,7 @@ const HomePage = () => {
         </p>
       </div>
 
-      <div id="dog-id" class="animal-pic">
+      <div id={'dog-id'} class="animal-pic">
         {dogImgPaths.map((path) => (
           <div class="col">
             <div class="animal-img">
@@ -82,7 +82,7 @@ const HomePage = () => {
         ))}
       </div>
 
-      <div id="cat-id" class="animal-pic">
+      <div id={'cat-id'} class="animal-pic">
         {catImgPaths.map((path) => (
           <div class="col">
             <div class="animal-img">

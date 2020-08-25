@@ -1,43 +1,43 @@
 import React from 'react';
 import './navbar.styles.scss';
 import NavLogo from '../../assets/navbar/nav-logo.png';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
-  const projectName = 'love-animal-react';
   return (
     <nav>
-      <a href={`/${projectName}`} className="nav-logo">
+      <Link to="/">
         <img src={NavLogo} alt="nav-logo" />
-      </a>
+      </Link>
       <ul className="menu">
         <li>
-          <a href={`/${projectName}`}>首頁</a>
+          <Link to="/">首頁</Link>
         </li>
         <li>
-          <a href={`/${projectName}/about`}>關於我們</a>
+          <Link to="/about">關於我們</Link>
         </li>
         <li className="dropDown">
-          <a href={`/${projectName}/#`}>動物認養</a>
+          <Link to="/#">動物認養</Link>
           <ul className="subMenu">
             <li>
-              <a href={`/${projectName}/#notice-id`}>認養須知</a>
+              <Link to="/#notice-id">認養須知</Link>
             </li>
             <li>
-              <a href={`/${projectName}/#dog-id`}>認養狗狗</a>
+              <Link to="/#dog-id">認養狗狗</Link>
             </li>
             <li>
-              <a href={`/${projectName}/#cat-id`}>認養貓咪</a>
+              <Link to="/#cat-id">認養貓咪</Link>
             </li>
           </ul>
         </li>
         <li>
-          <a href={`/${projectName}/news`}>動物新聞</a>
+          <Link to="/news">動物新聞</Link>
         </li>
         <li>
-          <a href={`/${projectName}/partner`}>活動夥伴</a>
+          <Link to="/partner">活動夥伴</Link>
         </li>
         <li>
-          <a href={`/${projectName}/contact`}>聯絡我們</a>
+          <Link to="/contact">聯絡我們</Link>
         </li>
       </ul>
     </nav>
