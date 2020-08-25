@@ -44,6 +44,7 @@
   margin: auto;
   padding: 10px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .animal-pic .col {
@@ -64,3 +65,19 @@
 
 /*---Animal Picture End---*/
 
+.notice {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.notice .notice-title {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 700;
+}
+
+.notice p {
+  color: #4e4d4d;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}

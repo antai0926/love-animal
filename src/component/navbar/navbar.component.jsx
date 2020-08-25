@@ -19,13 +19,13 @@ const NavBar = () => {
           <a href="/#">動物認養</a>
           <ul className="subMenu">
             <li>
-              <a href="/#">認養須知</a>
+              <a href="/#notice-id">認養須知</a>
             </li>
             <li>
-              <a href="/#">認養狗狗</a>
+              <a href="/#dog-id">認養狗狗</a>
             </li>
             <li>
-              <a href="/#">認養貓咪</a>
+              <a href="/#cat-id">認養貓咪</a>
             </li>
           </ul>
         </li>

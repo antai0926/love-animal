@@ -3,7 +3,7 @@ import './App.scss';
 import { Switch, Route } from 'react-router-dom';
 import AboutPage from './pages/about-page/about-page.component';
 import NewsPage from './pages/news-page/news-page.component';
-import HomePage from './pages/home-page/home-page';
+import HomePage from './pages/home-page/home-page.component';
 import PartnerPage from './pages/partner-page/partner-page.component';
 
 function App() {
