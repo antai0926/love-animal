@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/love-animal-react/precache-manifest.770ada0a2561247fcb599b67123ee043.js"
+  "/love-animal-react/precache-manifest.789c5a1121245b92edd5bd24de0831e3.js"
 );
 
 self.addEventListener('message', (event) => {
