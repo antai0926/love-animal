@@ -2,17 +2,13 @@ import React from 'react';
 import './about-page.styles.scss';
 import NavBar from '../../component/navbar/navbar.component';
 import Footer from '../../component/footer/footer.component';
+import AboutWrapper from '../../component/about-wrapper/about-wrapper.component';
 
 const AboutPage = () => {
   return (
     <div className="about-page">
       <NavBar />
-      <div className="about-wrapper">
-        <div className="about-item"></div>
-        <div className="about-item"></div>
-        <div className="about-item"></div>
-        <div className="about-item"></div>
-      </div>
+      <AboutWrapper/>
       <div className="padding"></div>
       <div className="about">
         <p>

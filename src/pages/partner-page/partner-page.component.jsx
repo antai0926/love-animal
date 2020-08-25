@@ -2,6 +2,7 @@ import React from 'react';
 import './partner-page.styles.scss';
 import NavBar from '../../component/navbar/navbar.component';
 import Footer from '../../component/footer/footer.component';
+import AboutWrapper from '../../component/about-wrapper/about-wrapper.component';
 
 const PartnerPage = () => {
   const partners = [
@@ -29,6 +30,7 @@ const PartnerPage = () => {
   return (
     <div className="partner-page">
       <NavBar />
+      <AboutWrapper />
       <div className="partner-wrapper">
         <div className="partner-title">
           <h1>認養合作夥伴</h1>

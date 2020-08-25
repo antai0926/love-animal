@@ -2,11 +2,13 @@ import React from 'react';
 import './news-page.styles.scss';
 import NavBar from '../../component/navbar/navbar.component';
 import Footer from '../../component/footer/footer.component';
+import AboutWrapper from '../../component/about-wrapper/about-wrapper.component';
 
 const NewsPage = () => {
   return (
     <div className="news-page">
       <NavBar />
+      <AboutWrapper />
       <div className="blog-sidebar">
         <div className="widget">
           <h4 className="widget-title">分類</h4>

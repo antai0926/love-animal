@@ -15,6 +15,10 @@ const HomePage = () => {
     require('../../assets/home-page/dog-img8.png'),
   ];
   const catImgPaths = [
+    require('../../assets/home-page/cat-img1.png'),
+    require('../../assets/home-page/cat-img2.png'),
+    require('../../assets/home-page/cat-img3.png'),
+    require('../../assets/home-page/cat-img4.png'),
     require('../../assets/home-page/cat-img5.png'),
     require('../../assets/home-page/cat-img6.png'),
     require('../../assets/home-page/cat-img7.png'),

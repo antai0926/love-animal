@@ -5,6 +5,7 @@ import AboutPage from './pages/about-page/about-page.component';
 import NewsPage from './pages/news-page/news-page.component';
 import HomePage from './pages/home-page/home-page.component';
 import PartnerPage from './pages/partner-page/partner-page.component';
+import ContactPage from './pages/contact-page/contact-page.component';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/about" component={AboutPage} />
         <Route exact path="/news" component={NewsPage} />
         <Route exact path="/partner" component={PartnerPage} />
+        <Route exact path="/contact" component={ContactPage} />
       </Switch>
     </div>
   );

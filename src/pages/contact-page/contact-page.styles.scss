@@ -1,0 +1,37 @@
+.contact-wrapper {
+  background-color: #2e2e2e;
+  padding: 50px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  grid-auto-flow: row;
+}
+.contact-wrapper div {
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+.contact-wrapper .contact-map {
+  grid-row: 1;
+  grid-column: 1;
+}
+.contact-wrapper .contact-msg {
+  margin: 0;
+  grid-row: 1;
+  grid-column: 2;
+}
+.contact-wrapper .contact-form {
+  grid-row: 1;
+  grid-column: 3;
+}
+
+.contact-wrapper .contact-form input,
+.contact-wrapper .contact-form textarea {
+  width: 100%;
+  padding: 25px 0px;
+  font-size: 16px;
+  border: 0;
+  border-bottom: 1px solid #d8d8d8;
+  background: none;
+}

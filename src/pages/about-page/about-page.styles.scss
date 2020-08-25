@@ -1,37 +1,9 @@
+
 .about-page {
   background-image: url(../../assets/about//about-bg.png);
   background-attachment: fixed;
   background-size: cover;
 
-  .about-wrapper {
-    display: flex;
-    background-color: white;
-    height: 600px;
-    border: 2px solid #160d0d;
-
-    .about-item {
-      flex-basis: 80px;
-      flex-grow: 1;
-      background-size: cover;
-      transition: flex-basis 0.4s ease-out;
-      &:hover {
-        flex-basis: 170px;
-        transition: flex-basis 0.4s ease-in;
-      }
-      &:nth-child(1) {
-        background-image: url(../../assets/about/about1.png);
-      }
-      &:nth-child(2) {
-        background-image: url(../../assets/about/about2.png);
-      }
-      &:nth-child(3) {
-        background-image: url(../../assets/about/about3.png);
-      }
-      &:nth-child(4) {
-        background-image: url(../../assets/about/about4.png);
-      }
-    }
-  }
   .padding {
     padding: 300px;
   }
